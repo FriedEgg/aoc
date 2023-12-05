@@ -6,6 +6,7 @@ fn main() {
     let solutions: Vec<&dyn Solution> = vec![
         &aoc::day::__1,
         &aoc::day::__2,
+        &aoc::day::__3,
     ];
 
     for (i, solution) in solutions.iter().enumerate() {
