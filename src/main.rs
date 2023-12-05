@@ -7,6 +7,7 @@ fn main() {
         &aoc::day::__1,
         &aoc::day::__2,
         &aoc::day::__3,
+        &aoc::day::__4,
     ];
 
     for (i, solution) in solutions.iter().enumerate() {
